@@ -1,0 +1,55 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Database
+*.db
+*.sqlite3
+rental_houses.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+stripe_keys.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Uploads folder (user uploads - don't commit)
+static/uploads/
+!static/uploads/.gitkeep
+
+# Temporary files
+temp/
+tmp/
+
+# Windows specific
+AppData/
+Application Data/
+Local Settings/
+Thumbs.db
+Desktop.ini
